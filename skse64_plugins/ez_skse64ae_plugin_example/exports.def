@@ -1,0 +1,4 @@
+LIBRARY "ez_skse64ae_plugin_example"
+EXPORTS
+SKSEPlugin_Query
+SKSEPlugin_Load
