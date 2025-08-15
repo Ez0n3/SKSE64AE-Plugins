@@ -1,0 +1,72 @@
+*.lnk
+*.bak*
+*/_BAK*
+_BAK
+_BAK/*
+
+Builds
+Builds/*
+*/Builds*
+*/Builds/*
+
+x64
+x64/*
+*/x64*
+*/x64/*
+
+*/Debug/*
+*/Release/*
+*/x64_v140/*
+*/x64_v142/*
+*/x64_vc11/*
+
+# cmake
+build/*
+
+#common
+Debug VC9/*
+Debug/*
+Release VC9/*
+Release/*
+x64_v140/*
+x64_v142/*
+x64_vc11/*
+
+# visual studio
+*.sdf
+*.suo
+*.db
+*.ncb
+*.user
+*.filters
+*.VC.db
+*.VC.opendb
+*.opensdf
+.vs
+
+# build output
+*.tlog
+*.lastbuildstate
+*.unsuccessfulbuild
+*.lib
+*.log
+*.obj
+*.idb
+*.pdb
+BuildLog.htm
+*.res
+*.cache
+*.exe
+*.dll
+*.exp
+*.ilk
+
+# script extender
+*.aps
+*.vspscc
+
+# scripts
+scripts/build_bin
+scripts/build_src
+scripts/compiler
+scripts/merged
