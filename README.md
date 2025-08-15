@@ -22,6 +22,12 @@ It has also been pre-configured to build **Plugins** and is not intended for bui
 All necessary projects have been migrated to and built with **Visual Studio 2022 (v143)**, which can be downloaded here: [Visual Studio 2020](https://visualstudio.microsoft.com/downloads/)   
 
   
+> [!TIP]  
+> See Also:  
+> [SKSE64](https://github.com/Ez0n3/SKSE64-Plugins)  
+> [SKSE](https://github.com/Ez0n3/SKSE-Plugins)  
+
+  
 [Back to top](#skse64ae-plugins)  
   
 ## Construction:  
