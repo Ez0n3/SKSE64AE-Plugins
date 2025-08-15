@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+		<!-- Note: See the (x)se_version.h files included with the SDK for versions -->
+		<!-- $(SeRuntimeVersion) should be set to the runtime version of the game you are building a plugin for - usually the latest -->
+        <SeRuntimeVersion>0x01064920</SeRuntimeVersion>
+		<!-- $(SeRuntimeVersionNG) should be set to the "No Gore" runtime version of the game - if needed -->
+        <SeRuntimeVersionNG></SeRuntimeVersionNG>
+		<!-- $(SeRuntimeVersionCS) should be set to the editor version for the game - if needed -->
+        <SeRuntimeVersionCS></SeRuntimeVersionCS>
+    </PropertyGroup>
+    <PropertyGroup>
+		<!-- Sets the output and intermediate folders for everything -->
+		<OutDir>$(SolutionDir)Builds\$(Configuration)\</OutDir>
+		<IntDir>$(SolutionDir)Builds\$(Configuration)\Int\$(ProjectName)\</IntDir>
+	</PropertyGroup>
+	<ItemDefinitionGroup>
+		<ClCompile>
+			<!-- Sets additional compile options for everything -->
+			<WarningLevel>Level3</WarningLevel>
+			<AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\..\..;$(SolutionDir)\..\..\skse64;$(SolutionDir)\..\..\skse64\skse64;$(SolutionDir)\..\..\skse64\skse64_common;$(SolutionDir)\..\plugins_common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
+		</ClCompile>
+	</ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
