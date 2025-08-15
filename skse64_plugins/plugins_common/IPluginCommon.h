@@ -110,7 +110,7 @@
 #else
 _MESSAGE("WARNING::SaveFolder: Unknown runtime type, using default save folder name append");
 #define GAME_SAVE_FOLDER_NAME_APPEND "" // append nothing if the distributor is not detected
-#endif
+#endif // GET_EXE_VERSION_SUB
 
 // Some SDK's don't have this, defining and renaming it here for commonality
 #define GAME_SAVE_FOLDER_NAME(game_name)	game_name GAME_SAVE_FOLDER_NAME_APPEND // append distributor acronym if needed
@@ -122,7 +122,7 @@ _MESSAGE("WARNING::SaveFolder: Unknown runtime type, using default save folder n
 #define PLUGIN_LOG_FILE_NAME_APPEND	"_ng" // append "_ng" to the NOGORE log file
 #else
 #define PLUGIN_LOG_FILE_NAME_APPEND	"" // append nothing if NOGORE is not set
-#endif
+#endif // NOGORE
 
 // Get the plugin log file name
 #define PLUGIN_LOG_FILE_NAME(plugin_name)	plugin_name PLUGIN_LOG_FILE_NAME_APPEND ".log" // append nogore if needed
