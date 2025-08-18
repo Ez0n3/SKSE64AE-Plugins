@@ -8,18 +8,20 @@
   
 ## Description:  
   
-Updated: **August 15, 2025**  
+Updated: **August 18, 2025**  
   
 This repo contains Plugins for Skyrim Anniversary and Special Edition - SKSE64AE, including a Plugin Example (**Status: Tested and Working**).  
   
-**SKSE64AE** is an SDK created by [Ian Patterson](https://github.com/ianpatt), which extends the functionality of **Skyrim Anniversary and Special Edition** for mod authors.  
-The original SDK used for building the SKSE64AE EXE can be found here: [SKSE64AE](https://skse.silverlock.org/) [SKSE64-AE-SE](https://github.com/ianpatt/skse64)  
-Using SKSE64AE in your mod will then make SKSE64AE a **Dependency** which you must must inform your users of and provide a link to.  
+ * **SKSE64AE** is an SDK created by [Ian Patterson](https://github.com/ianpatt), which extends the functionality of **Skyrim Anniversary and Special Edition** for mod authors.  
+ * The original SDK used for building the SKSE64AE EXE can be found here: [SKSE64AE](https://skse.silverlock.org/) [SKSE64-AE-SE](https://github.com/ianpatt/skse64)  
+ * Using SKSE64AE in your mod will then make SKSE64AE a **Dependency** which you must must inform your users of and provide a link to ([SKSE64AE](https://www.nexusmods.com/skyrimspecialedition/mods/30379?tab=files)).  
   
 This mirror of the SDK is currently set to support Skyrim Anniversary and Special Edition runtime version: **1.6.1170.0** - SKSE64AE version: **0.2.2.6**, other versions will need to be manually configured.  
 It has also been pre-configured to build **Plugins** and is not intended for building the full EXE (Core and Loader).  
   
-All necessary projects have been migrated to and built with **Visual Studio 2022 (v143)**, which can be downloaded here: [Visual Studio 2020](https://visualstudio.microsoft.com/downloads/)   
+All necessary projects have been migrated to and built with **Visual Studio 2022 (v143)**, which can be downloaded here: [Visual Studio 2020](https://visualstudio.microsoft.com/downloads/)  
+  
+The highest version of VS officially supported before it was abandoned for CMake, is Visual Studio 2019 (v142). Building Plugins with v143 is **experimental**, but functioning.  
 
   
 > [!TIP]  
