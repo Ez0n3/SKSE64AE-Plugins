@@ -8,7 +8,7 @@
   
 ## Description:  
   
-Updated: **August 18, 2025**  
+Updated: **August 19, 2025**  
   
 This repo contains Plugins for Skyrim Anniversary and Special Edition - SKSE64AE, including a Plugin Example (**Status: Tested and Working**).  
   
@@ -19,7 +19,7 @@ This repo contains Plugins for Skyrim Anniversary and Special Edition - SKSE64AE
 This mirror of the SDK is currently set to support Skyrim Anniversary and Special Edition runtime version: **1.6.1170.0** - SKSE64AE version: **0.2.2.6**, other versions will need to be manually configured.  
 It has also been pre-configured to build **Plugins** and is not intended for building the full EXE (Core and Loader).  
   
-All necessary projects have been migrated to and built with **Visual Studio 2022 (v143)**, which can be downloaded here: [Visual Studio 2020](https://visualstudio.microsoft.com/downloads/)  
+All necessary projects have been migrated to and built with **Visual Studio 2022 (v143)**, which can be downloaded here: [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)  
   
 The highest version of VS officially supported before it was abandoned for CMake, is Visual Studio 2019 (v142). Building Plugins with v143 is **experimental**, but functioning.  
 
